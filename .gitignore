@@ -1,0 +1,26 @@
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Java / Maven
+target/
+backend/target/
+
+# Uploaded resume files are local runtime data
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/storage/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
