@@ -18,9 +18,12 @@ backend/target/
 backend/uploads/*
 !backend/uploads/.gitkeep
 backend/storage/
+backend-node/storage/
 
 # Editor and OS files
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
+
+backend-node/.git-backup/
